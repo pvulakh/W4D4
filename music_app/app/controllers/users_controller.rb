@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
     def index 
-        #redirect to main page???? what is that lol
+        render :show
     end 
 
     def new 
